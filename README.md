@@ -1,4 +1,4 @@
-# 📊 Hilton Hotel London - Sentiment Analysis Project
+# 📊 Harish Individual Project - Sentiment Analysis
 
 ## 🎯 Project Overview
 - **Objective:** Analyze customer reviews for Hilton Hotels in London to identify key areas of dissatisfaction and improve guest experience.
@@ -41,24 +41,26 @@
   - Reassess **pricing strategies** and add more **value-based offerings**
 
 ## 🚀 How to Run This Project
+### **Option 1: Running in Jupyter Notebook**
 1️⃣ **Clone the repository:**
 ```bash
-   git clone https://github.com/yourgithub/hilton-sentiment-analysis.git
+   git clone https://github.com/harris97/hilton-sentiment-analysis.git
 ```
-2️⃣ **Install dependencies:**
+2️⃣ **Navigate to the project directory:**
 ```bash
-   pip install -r requirements.txt
+   cd hilton-sentiment-analysis
 ```
-3️⃣ **Run sentiment analysis:**
+3️⃣ **Open Jupyter Notebook:**
 ```bash
-   python sentiment_analysis.py
+   jupyter notebook
 ```
-4️⃣ **Explore Data & Insights:**
-   - Open **Jupyter Notebook** to explore EDA and model training steps.
-   - Load the **Power BI/Tableau Dashboard** for interactive visualization.
-
+4️⃣ **Run the notebook:**
+   - Open `Harish_Individual_Project.ipynb`
+   - Run all cells to process data and train models.
+     
 ## 📸 Sample Visualizations
-![image](https://github.com/user-attachments/assets/75bde8fb-9a07-40a1-8739-f084f42e1bf2)
+![image](https://github.com/user-attachments/assets/b3cabb44-6afb-4fcd-8304-634b873465bb)
+![image](https://github.com/user-attachments/assets/5b892ea5-df4b-4cd3-963a-881ddb2b1c42)
 
 
 ## 📫 Connect With Me
