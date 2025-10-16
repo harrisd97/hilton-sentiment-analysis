@@ -1,75 +1,81 @@
-# 📊 Harish Individual Project - Sentiment Analysis
+# 📊 Hilton Hotel Reviews - Sentiment Analysis
 
-## 🎯 Project Overview
-- **Objective:** Analyze customer reviews for Hilton Hotels in London to identify key areas of dissatisfaction and improve guest experience.
-- **Approach:** Perform **sentiment analysis** on reviews using NLP techniques and build a predictive model to classify future reviews.
-- **Outcome:** Generate insights for hotel management and deploy a **sentiment classification tool**.
-
-## 🔍 Dataset Used
-- **Source:** Tripadvisor hotel reviews dataset (scraped data)
-- **Attributes:** Hotel Name, Review Summary, Review Text, Score (1-5 Bubble Ratings)
-- **Size:** 17,537 reviews (after cleaning)
-
-## 🛠 Technologies Used
-- **Data Processing:** Python (Pandas, NumPy, Regex, NLTK)
-- **Visualization:** Matplotlib, Seaborn, WordCloud
-- **Machine Learning Models:** Logistic Regression, Random Forest, Support Vector Machine (SVM), BERT
-- **Feature Engineering:** Bag-of-Words (BoW), TF-IDF, Word2Vec
-- **Sentiment Analysis:** VADER, ML models
-- **Deployment Tools:** Flask (Optional Future Scope)
-
-## 📊 Exploratory Data Analysis (EDA)
-- **Numeric Score Distribution:** Majority of reviews have positive scores (40-50), but there are key areas of dissatisfaction (10-20 scores).
-- **Hotel-Specific Sentiment Trends:** Hilton London Metropole and Hilton London Gatwick Airport had the most **mixed reviews**.
-- **Word Frequency Analysis:** Positive reviews emphasized **“location,” “lounge,” and “breakfast”**, while negative reviews mentioned **“dirty,” “check-in,” and “staff”** frequently.
-
-## 📌 Sentiment Classification Models
-1️⃣ **Baseline Model:** VADER (Lexicon-based Sentiment Analysis) - **76% accuracy**
-2️⃣ **Machine Learning Models:**
-   - **Logistic Regression (TF-IDF)** – Best model with **87% accuracy**
-   - **Random Forest (TF-IDF)** – Slightly lower performance at **84% accuracy**
-   - **SVM (TF-IDF)** – Achieved **86% accuracy**, close to Logistic Regression
-3️⃣ **Deep Learning Model:** BERT (Transformers-based NLP model) - **86.6% accuracy**, but computationally expensive
-
-## 🔥 Key Insights & Recommendations
-- **Room Cleanliness & Comfort:** Frequent complaints about **dirty rooms, old furniture, and lack of maintenance**.
-- **Check-in & Service Delays:** Long waiting times at **reception and unfriendly staff experiences**.
-- **Pricing Concerns:** Overpriced food, expensive stays without added value.
-- **Improvement Strategy:**
-  - Enhance **cleaning protocols** and **room renovations**
-  - Implement **staff training programs** to improve guest interactions
-  - Reassess **pricing strategies** and add more **value-based offerings**
-
-## 🚀 How to Run This Project
-### **Option 1: Running in Jupyter Notebook**
-1️⃣ **Clone the repository:**
-```bash
-   git clone https://github.com/harris97/hilton-sentiment-analysis.git
-```
-2️⃣ **Navigate to the project directory:**
-```bash
-   cd hilton-sentiment-analysis
-```
-3️⃣ **Open Jupyter Notebook:**
-```bash
-   jupyter notebook
-```
-4️⃣ **Run the notebook:**
-   - Open `Harish_Individual_Project.ipynb`
-   - Run all cells to process data and train models.
-     
-## 📸 Sample Visualizations
-![image](https://github.com/user-attachments/assets/b3cabb44-6afb-4fcd-8304-634b873465bb)
-![image](https://github.com/user-attachments/assets/5b892ea5-df4b-4cd3-963a-881ddb2b1c42)
-
-
-## 📫 Connect With Me
-🔗 LinkedIn: [https://www.linkedin.com/in/harishkd](https://www.linkedin.com/in/harishkd)  
-📧 Email: [harishkumard97@gmail.com](mailto:harishkumard97@gmail.com)
+**Project Focus:** Applying Natural Language Processing (NLP) and Machine Learning to analyze Hilton Hotel customer reviews, identify key drivers of guest satisfaction, and build a high-accuracy sentiment classification model.
 
 ---
-## ⚠️ Disclaimer
-This project is intended for **educational and practice purposes only**. The dataset used is publicly available, and **no confidential or proprietary information is included**. The analysis and models built do not reflect any official Hilton policies or operations. **I am not liable for any consequences arising from the use of this project.**
 
-🚀 *This project highlights the power of sentiment analysis in improving customer experiences! Feel free to explore and contribute!*
+## 🌟 Executive Summary
 
+This project transforms unstructured customer feedback into actionable business intelligence. By analyzing over 17,000 hotel reviews, we identified critical service areas and developed a model to automate the classification of future reviews, enabling management to proactively address guest concerns.
+
+| Business Problem | Technical Solution | Key Result |
+| :--- | :--- | :--- |
+| Inability to quantify key themes from thousands of text reviews. | **NLP with TF-IDF and Machine Learning models.** | **Logistic Regression** model achieved **87% accuracy** in classifying review sentiment. |
+
+---
+
+## 🛠️ Technical Skills & Technologies
+
+This project demonstrates a comprehensive skillset in data science, from initial data processing and NLP to model development and evaluation.
+
+| Area | Technologies & Techniques |
+| :--- | :--- |
+| **Languages & Libraries** | Python (Pandas, NumPy, NLTK, Scikit-learn) |
+| **Data Analysis** | Exploratory Data Analysis (EDA), Text Preprocessing (Regex, Tokenization, Stopwords) |
+| **NLP Feature Engineering** | Bag-of-Words (BoW), **TF-IDF (Top Performer)**, Word2Vec |
+| **Modeling** | **Logistic Regression (Selected)**, Random Forest, SVM, BERT |
+| **Visualization** | Matplotlib, Seaborn, WordCloud |
+
+---
+
+## 💡 Top 3 Actionable Insights
+
+The analysis revealed specific, recurring themes in guest feedback that directly impact satisfaction scores.
+
+| Key Driver | Common Feedback | Business Recommendation |
+| :--- | :--- | :--- |
+| **1. Service Quality** | "check-in," "staff," "rude" | Implement targeted staff training programs focused on improving front-desk efficiency and guest interaction protocols. |
+| **2. Room Condition** | "dirty," "old," "small" | Prioritize a budget for room renovations and enhance housekeeping quality assurance checks. |
+| **3. Positive Drivers** | "location," "breakfast," "lounge" | Leverage these strengths in marketing campaigns to highlight key differentiators and attract new guests. |
+
+---
+
+## 🏆 Model Performance & Selection
+
+Multiple models were evaluated to find the best balance of performance and efficiency. The **Logistic Regression** model using TF-IDF features was selected as the optimal solution.
+
+| Model | Feature Engineering | Accuracy |
+| :--- | :--- | :--- |
+| Baseline: VADER | Lexicon-based | 76.0% |
+| **Final: Logistic Regression** | **TF-IDF** | **87.0%** |
+| Support Vector Machine (SVM) | TF-IDF | 86.0% |
+| BERT (Deep Learning) | Transformers | 86.6% |
+| Random Forest | TF-IDF | 84.0% |
+
+---
+
+## 💻 Project Walkthrough
+
+The complete analysis, including data cleaning, exploratory visualizations, and model training, is documented in the accompanying Jupyter Notebook.
+
+### How to Run Locally
+
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/harris97/hilton-sentiment-analysis.git](https://github.com/harris97/hilton-sentiment-analysis.git)
+    cd hilton-sentiment-analysis
+    ```
+2.  **Install the required dependencies:** (You may need to add `nltk` libraries as prompted in the notebook)
+    ```bash
+    pip install pandas numpy matplotlib seaborn wordcloud scikit-learn nltk
+    ```
+3.  **Launch Jupyter and run the notebook:**
+    ```bash
+    jupyter notebook Harish_Individual_Project.ipynb
+    ```
+
+---
+## 📫 Connect With Me
+
+* **LinkedIn:** [https://www.linkedin.com/in/harishkd](https://www.linkedin.com/in/harishkd)
+* **Email:** [harishkumard97@gmail.com](mailto:harishkumard97@gmail.com)
