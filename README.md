@@ -1,10 +1,10 @@
-# 📊 Hilton Hotel Reviews - Sentiment Analysis
+# Hilton Hotel Reviews - Sentiment Analysis
 
 **Project Focus:** Applying Natural Language Processing (NLP) and Machine Learning to analyze Hilton Hotel customer reviews, identify key drivers of guest satisfaction, and build a high-accuracy sentiment classification model.
 
 ---
 
-## 🌟 Executive Summary
+## Executive Summary
 
 This project transforms unstructured customer feedback into actionable business intelligence. By analyzing over 17,000 hotel reviews, we identified critical service areas and developed a model to automate the classification of future reviews, enabling management to proactively address guest concerns.
 
@@ -14,7 +14,7 @@ This project transforms unstructured customer feedback into actionable business 
 
 ---
 
-## 🛠️ Technical Skills & Technologies
+## Technical Skills & Technologies
 
 This project demonstrates a comprehensive skillset in data science, from initial data processing and NLP to model development and evaluation.
 
@@ -28,7 +28,7 @@ This project demonstrates a comprehensive skillset in data science, from initial
 
 ---
 
-## 💡 Top 3 Actionable Insights
+## Top 3 Actionable Insights
 
 The analysis revealed specific, recurring themes in guest feedback that directly impact satisfaction scores.
 
@@ -40,7 +40,7 @@ The analysis revealed specific, recurring themes in guest feedback that directly
 
 ---
 
-## 🏆 Model Performance & Selection
+## Model Performance & Selection
 
 Multiple models were evaluated to find the best balance of performance and efficiency. The **Logistic Regression** model using TF-IDF features was selected as the optimal solution.
 
@@ -54,7 +54,7 @@ Multiple models were evaluated to find the best balance of performance and effic
 
 ---
 
-## 💻 Project Walkthrough
+## Project Walkthrough
 
 The complete analysis, including data cleaning, exploratory visualizations, and model training, is documented in the accompanying Jupyter Notebook.
 
@@ -75,7 +75,7 @@ The complete analysis, including data cleaning, exploratory visualizations, and 
     ```
 
 ---
-## 📫 Connect With Me
+## Contact Information
 
-* **LinkedIn:** [https://www.linkedin.com/in/harishkd](https://www.linkedin.com/in/harishkd)
-* **Email:** [harishkumard97@gmail.com](mailto:harishkumard97@gmail.com)
+- **LinkedIn:** [https://www.linkedin.com/in/harishkd](https://www.linkedin.com/in/harishkd)
+- **Email:** [harishkumard97@gmail.com](mailto:harishkumard97@gmail.com)
