@@ -4,7 +4,7 @@
 
 ---
 
-## Executive Summary
+## Project Summary
 
 This project transforms unstructured customer feedback into actionable business intelligence. By analyzing over 17,000 hotel reviews, we identified critical service areas and developed a model to automate the classification of future reviews, enabling management to proactively address guest concerns.
 
